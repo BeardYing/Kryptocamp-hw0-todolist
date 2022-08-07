@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>ToDoList | KryptoCamp Week1 Homework </title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/0f3f38a034.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="bg-half"></div>
+
+    <div class="container mx-auto px-4 h-100">
+      <header class="header">
+        <span>TODO LIST</span>
+      </header>
+
+      <div class="todolist__form">
+        <input id="todo" type="text" placeholder="新增待辦事項">
+
+        <!-- TODO: 新增待辦事項 -->
+        <a onclick="addNewTodo()">
+          <img src="./images/add.svg" alt="Create Todo">
+        </a>
+      </div>
+
+
+      <div class="todolist">
+        <ul class="todolist__tabs">
+          <li>
+            <a class="all active" href="#">全部</a>
+          </li>
+          <li>
+            <a class="no-completed" href="#">待完成</a>
+          </li>
+          <li>
+            <a class="completed" href="#">已完成</a>
+          </li>
+        </ul>
+
+        <div class="todolist__table">
+          <ul class="todolist__item"></ul>
+
+          <div class="todolist__info">
+            <span>
+              <a>0</a>
+              個已完成項目
+            </span>
+            <span class="cursor-pointer" onclick="clearCompletedTodo()">清除已完成項目</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
