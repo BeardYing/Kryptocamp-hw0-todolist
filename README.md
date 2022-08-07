@@ -5,12 +5,12 @@
   </a>
 
   <h3 align="center">Todo List</h3>
-
   <p align="center">
-    🌱 Todo List 待辦事項
+    🌱 Todo List 待辦事項 - Beard
     <br />
     ·
-    <a href="https://stellular-meringue-602b54.netlify.app/#">線上Demo</a>
+    <a href="https://radiant-phoenix-6b96bb.netlify.app/#">線上Demo</a>
+    <p>基本題+進階題完成</p>
   </p>
 </div>
 
